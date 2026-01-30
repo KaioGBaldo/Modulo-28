@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# ⚖️ React IMC Calculator - State Management & Components
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma calculadora de Índice de Massa Corporal (IMC) desenvolvida com **React**, focada em modularização por componentes e gerenciamento de estado dinâmico. O projeto demonstra como processar dados de saúde de forma instantânea e organizada.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# 📝 Resumo (Resume)
+Neste projeto, apliquei os fundamentos do **React.js**, utilizando o hook `useState` para controlar o fluxo de informações entre componentes irmãos (Lifting State Up). A aplicação é dividida em componentes menores (Form, Result e Tabela), o que facilita a manutenção e o reaproveitamento de código. A lógica de cálculo foi isolada em uma função utilitária, garantindo que a interface e a regra de negócio permaneçam independentes.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias e Conceitos (Tech Stack)
 
-### `npm test`
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![CSS Modules](https://img.shields.io/badge/CSS_Modules-000?style=for-the-badge&logo=css3&logoColor=61DAFB)](https://github.com/css-modules/css-modules)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-000?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📋 Funcionalidades em Destaque
+* **Gerenciamento de Hooks:** Uso do `useState` para capturar e propagar os resultados do IMC em tempo real pela aplicação.
+* **Arquitetura de Componentes:** Divisão clara de responsabilidades entre formulário de entrada, exibição de resultado e tabela de referência.
+* **CSS Modules:** Implementação de estilos encapsulados (`App.module.css`), evitando conflitos de classes e garantindo um design modular.
+* **Lógica de Classificação:** Algoritmo preciso que categoriza o resultado do IMC de acordo com os padrões da OMS (Organização Mundial da Saúde).
+* **Renderização Condicional:** O componente de resultado só é exibido após o primeiro cálculo, otimizando a experiência do usuário.
+* **Strict Mode:** Uso do `React.StrictMode` para identificar potenciais problemas na aplicação durante a fase de desenvolvimento.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 👨‍💻 Sobre mim (About Me)
+Olá, meu nome é **Kaio**, tenho 22 anos. Como meu foco é o **Back-End com Python**, aprender React me permitiu entender como os dados enviados pelo servidor são consumidos e "hidratados" na interface. Saber construir um front-end sólido com React me dá a base necessária para atuar como um desenvolvedor Full Stack, compreendendo todo o ciclo de vida de uma requisição.
 
-### `npm run eject`
+### Entre em contato (Contact me)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=61DAFB)](https://linkedin.com/in/kaio-grativol-baldo-071a74150/)
+[![Instagram](https://img.shields.io/badge/Instagram-000?style=for-the-badge&logo=instagram&logoColor=61DAFB)](https://www.instagram.com/kaiull__/)
+[![GitHub](https://img.shields.io/badge/Github-000?style=for-the-badge&logo=github&logoColor=61DAFB)](https://github.com/SeuUsuarioAqui)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Projeto desenvolvido para consolidar o conhecimento em Hooks, Props e Componentização no ecossistema React.*
